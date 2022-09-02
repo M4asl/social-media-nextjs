@@ -48,7 +48,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const chats = () => {
+const Chats = () => {
   const classes = useStyles();
 
   return (
@@ -98,4 +98,4 @@ export const getServerSideProps = wrapper.getServerSideProps(
     }
 );
 
-export default chats;
+export default Chats;

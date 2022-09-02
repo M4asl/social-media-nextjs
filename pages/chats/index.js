@@ -41,7 +41,7 @@ const useStyles = makeStyles(() => ({
   },
 }));
 
-const chats = () => {
+const Chats = () => {
   const classes = useStyles();
   const router = useRouter();
   const { chatReducer } = useSelector((state) => state);
@@ -92,4 +92,4 @@ export const getServerSideProps = wrapper.getServerSideProps(
     }
 );
 
-export default chats;
+export default Chats;
