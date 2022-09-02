@@ -1,0 +1,8 @@
+export const POST_CREATE = "POST_CREATE";
+export const POST_LIST_BY_USER = "POST_LIST_BY_USER";
+export const POST_LIST_NEWS_FEED = "POST_LIST_NEWS_FEED";
+export const POST_REMOVE = "POST_REMOVE";
+export const POST_UPDATE = "POST_UPDATE";
+export const POST_LOADING = "POST_LOADING";
+export const UPDATE_POSTS_SCROLL = "UPDATE_POSTS_SCROLL";
+export const NO_MORE_DATA = "NO_MORE_DATA";
